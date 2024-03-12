@@ -16,6 +16,8 @@
 		99FCAA122BA02E81007EABC0 /* MoovupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCAA112BA02E81007EABC0 /* MoovupTests.swift */; };
 		99FCAA1C2BA02E81007EABC0 /* MoovupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCAA1B2BA02E81007EABC0 /* MoovupUITests.swift */; };
 		99FCAA1E2BA02E81007EABC0 /* MoovupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCAA1D2BA02E81007EABC0 /* MoovupUITestsLaunchTests.swift */; };
+		99FCAA2B2BA03020007EABC0 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCAA2A2BA03020007EABC0 /* Graph.swift */; };
+		99FCAA2F2BA03291007EABC0 /* GraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCAA2D2BA03291007EABC0 /* GraphTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		99FCAA172BA02E81007EABC0 /* MoovupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoovupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FCAA1B2BA02E81007EABC0 /* MoovupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoovupUITests.swift; sourceTree = "<group>"; };
 		99FCAA1D2BA02E81007EABC0 /* MoovupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoovupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99FCAA2A2BA03020007EABC0 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		99FCAA2D2BA03291007EABC0 /* GraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				99FCA9FA2BA02E7F007EABC0 /* AppDelegate.swift */,
 				99FCA9FC2BA02E7F007EABC0 /* SceneDelegate.swift */,
 				99FCA9FE2BA02E7F007EABC0 /* ViewController.swift */,
+				99FCAA2C2BA0303B007EABC0 /* Question1 */,
 				99FCAA002BA02E7F007EABC0 /* Main.storyboard */,
 				99FCAA032BA02E80007EABC0 /* Assets.xcassets */,
 				99FCAA052BA02E80007EABC0 /* LaunchScreen.storyboard */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				99FCAA112BA02E81007EABC0 /* MoovupTests.swift */,
+				99FCAA2D2BA03291007EABC0 /* GraphTests.swift */,
 			);
 			path = MoovupTests;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				99FCAA1D2BA02E81007EABC0 /* MoovupUITestsLaunchTests.swift */,
 			);
 			path = MoovupUITests;
+			sourceTree = "<group>";
+		};
+		99FCAA2C2BA0303B007EABC0 /* Question1 */ = {
+			isa = PBXGroup;
+			children = (
+				99FCAA2A2BA03020007EABC0 /* Graph.swift */,
+			);
+			path = Question1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FCAA2B2BA03020007EABC0 /* Graph.swift in Sources */,
 				99FCA9FF2BA02E7F007EABC0 /* ViewController.swift in Sources */,
 				99FCA9FB2BA02E7F007EABC0 /* AppDelegate.swift in Sources */,
 				99FCA9FD2BA02E7F007EABC0 /* SceneDelegate.swift in Sources */,
@@ -268,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FCAA2F2BA03291007EABC0 /* GraphTests.swift in Sources */,
 				99FCAA122BA02E81007EABC0 /* MoovupTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 684UHAZS2T;
@@ -448,8 +465,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +474,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ding.codetest.Moovup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 684UHAZS2T;
@@ -476,8 +495,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +504,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ding.codetest.Moovup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
