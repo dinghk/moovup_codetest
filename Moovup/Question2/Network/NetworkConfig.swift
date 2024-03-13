@@ -9,7 +9,11 @@ import Foundation
 
 // MARK: - Network
 class NetworkConfig {
+    enum Method: String {
+        case get = "GET"
+        case post = "POST"
+    }
+    
     // Domain
     static var domain = "https://api.json-generator.com"
-    
 }

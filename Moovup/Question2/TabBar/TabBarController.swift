@@ -12,7 +12,7 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Create and configure the view controllers
-        let homeViewController = HomeViewController()
+        let homeViewController = HomeBuilder.create()
         let mapViewController = MapViewController()
 
         // Set the view controllers for the tab bar
