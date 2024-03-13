@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A66AADA9E8A7EC3D44ADE4E /* Pods_Moovup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E84B33893CCEA52E72490D /* Pods_Moovup.framework */; };
+		2C5AA41D8FBAFAADD790613A /* Pods_MoovupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C1A163CE9FF25524F975E /* Pods_MoovupTests.framework */; };
 		99FCA9FB2BA02E7F007EABC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCA9FA2BA02E7F007EABC0 /* AppDelegate.swift */; };
 		99FCA9FD2BA02E7F007EABC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCA9FC2BA02E7F007EABC0 /* SceneDelegate.swift */; };
 		99FCA9FF2BA02E7F007EABC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCA9FE2BA02E7F007EABC0 /* ViewController.swift */; };
@@ -25,6 +27,7 @@
 		99FCAA3C2BA188A4007EABC0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCAA3A2BA188A4007EABC0 /* MapViewController.swift */; };
 		99FCAA3F2BA188D3007EABC0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCAA3E2BA188D3007EABC0 /* TabBarController.swift */; };
 		99FCAA402BA188D3007EABC0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCAA3E2BA188D3007EABC0 /* TabBarController.swift */; };
+		EC6307E6325307E30005D851 /* Pods_Moovup_MoovupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6723224A504D4C3F01D4E4 /* Pods_Moovup_MoovupUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07129F845A4E01EC8BEFF8C2 /* Pods-Moovup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovup.debug.xcconfig"; path = "Target Support Files/Pods-Moovup/Pods-Moovup.debug.xcconfig"; sourceTree = "<group>"; };
+		15837CACEE020871D3F9A12A /* Pods-Moovup-MoovupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovup-MoovupUITests.debug.xcconfig"; path = "Target Support Files/Pods-Moovup-MoovupUITests/Pods-Moovup-MoovupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A96866621E63EE92B72DB0C /* Pods-MoovupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoovupTests.release.xcconfig"; path = "Target Support Files/Pods-MoovupTests/Pods-MoovupTests.release.xcconfig"; sourceTree = "<group>"; };
+		80C1D218FF0E74ADEBEC0ECD /* Pods-MoovupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoovupTests.debug.xcconfig"; path = "Target Support Files/Pods-MoovupTests/Pods-MoovupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81E84B33893CCEA52E72490D /* Pods_Moovup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moovup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87ADBB049E5C348B21C70693 /* Pods-Moovup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovup.release.xcconfig"; path = "Target Support Files/Pods-Moovup/Pods-Moovup.release.xcconfig"; sourceTree = "<group>"; };
 		99FCA9F72BA02E7F007EABC0 /* Moovup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moovup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FCA9FA2BA02E7F007EABC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99FCA9FC2BA02E7F007EABC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +72,9 @@
 		99FCAA372BA18896007EABC0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		99FCAA3A2BA188A4007EABC0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		99FCAA3E2BA188D3007EABC0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AF1C1A163CE9FF25524F975E /* Pods_MoovupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoovupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6723224A504D4C3F01D4E4 /* Pods_Moovup_MoovupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moovup_MoovupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE5076C90601DC4E038A96E /* Pods-Moovup-MoovupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovup-MoovupUITests.release.xcconfig"; path = "Target Support Files/Pods-Moovup-MoovupUITests/Pods-Moovup-MoovupUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A66AADA9E8A7EC3D44ADE4E /* Pods_Moovup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5AA41D8FBAFAADD790613A /* Pods_MoovupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +98,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6307E6325307E30005D851 /* Pods_Moovup_MoovupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262AA067B329763DE9FDC3BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07129F845A4E01EC8BEFF8C2 /* Pods-Moovup.debug.xcconfig */,
+				87ADBB049E5C348B21C70693 /* Pods-Moovup.release.xcconfig */,
+				15837CACEE020871D3F9A12A /* Pods-Moovup-MoovupUITests.debug.xcconfig */,
+				BCE5076C90601DC4E038A96E /* Pods-Moovup-MoovupUITests.release.xcconfig */,
+				80C1D218FF0E74ADEBEC0ECD /* Pods-MoovupTests.debug.xcconfig */,
+				1A96866621E63EE92B72DB0C /* Pods-MoovupTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		681E97F9A79F38A8C2F7FBD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E84B33893CCEA52E72490D /* Pods_Moovup.framework */,
+				BC6723224A504D4C3F01D4E4 /* Pods_Moovup_MoovupUITests.framework */,
+				AF1C1A163CE9FF25524F975E /* Pods_MoovupTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99FCA9EE2BA02E7F007EABC0 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +136,8 @@
 				99FCAA102BA02E81007EABC0 /* MoovupTests */,
 				99FCAA1A2BA02E81007EABC0 /* MoovupUITests */,
 				99FCA9F82BA02E7F007EABC0 /* Products */,
+				262AA067B329763DE9FDC3BB /* Pods */,
+				681E97F9A79F38A8C2F7FBD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99FCAA212BA02E81007EABC0 /* Build configuration list for PBXNativeTarget "Moovup" */;
 			buildPhases = (
+				6152B76721061ED8914D8A34 /* [CP] Check Pods Manifest.lock */,
 				99FCA9F32BA02E7F007EABC0 /* Sources */,
 				99FCA9F42BA02E7F007EABC0 /* Frameworks */,
 				99FCA9F52BA02E7F007EABC0 /* Resources */,
+				656672E31979743D5419CF76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99FCAA242BA02E81007EABC0 /* Build configuration list for PBXNativeTarget "MoovupTests" */;
 			buildPhases = (
+				BDF175B89275E367BF0E4B6B /* [CP] Check Pods Manifest.lock */,
 				99FCAA092BA02E81007EABC0 /* Sources */,
 				99FCAA0A2BA02E81007EABC0 /* Frameworks */,
 				99FCAA0B2BA02E81007EABC0 /* Resources */,
@@ -236,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99FCAA272BA02E81007EABC0 /* Build configuration list for PBXNativeTarget "MoovupUITests" */;
 			buildPhases = (
+				4FACD66F1E246AAC44F33F94 /* [CP] Check Pods Manifest.lock */,
 				99FCAA132BA02E81007EABC0 /* Sources */,
 				99FCAA142BA02E81007EABC0 /* Frameworks */,
 				99FCAA152BA02E81007EABC0 /* Resources */,
+				B94A7DD5E7D30BC98A1D75AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,6 +364,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FACD66F1E246AAC44F33F94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moovup-MoovupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6152B76721061ED8914D8A34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moovup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656672E31979743D5419CF76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moovup/Pods-Moovup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moovup/Pods-Moovup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moovup/Pods-Moovup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94A7DD5E7D30BC98A1D75AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moovup-MoovupUITests/Pods-Moovup-MoovupUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moovup-MoovupUITests/Pods-Moovup-MoovupUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moovup-MoovupUITests/Pods-Moovup-MoovupUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF175B89275E367BF0E4B6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoovupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		99FCA9F32BA02E7F007EABC0 /* Sources */ = {
@@ -505,6 +654,7 @@
 		};
 		99FCAA222BA02E81007EABC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07129F845A4E01EC8BEFF8C2 /* Pods-Moovup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -535,6 +685,7 @@
 		};
 		99FCAA232BA02E81007EABC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87ADBB049E5C348B21C70693 /* Pods-Moovup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -565,6 +716,7 @@
 		};
 		99FCAA252BA02E81007EABC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C1D218FF0E74ADEBEC0ECD /* Pods-MoovupTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -585,6 +737,7 @@
 		};
 		99FCAA262BA02E81007EABC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A96866621E63EE92B72DB0C /* Pods-MoovupTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -605,6 +758,7 @@
 		};
 		99FCAA282BA02E81007EABC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15837CACEE020871D3F9A12A /* Pods-Moovup-MoovupUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -623,6 +777,7 @@
 		};
 		99FCAA292BA02E81007EABC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE5076C90601DC4E038A96E /* Pods-Moovup-MoovupUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
