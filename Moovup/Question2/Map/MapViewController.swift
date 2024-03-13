@@ -1,19 +1,17 @@
 //
-//  ViewController.swift
+//  MapViewController.swift
 //  Moovup
 //
-//  Created by Ding Lo on 12/3/2024.
+//  Created by Ding Lo on 13/3/2024.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class MapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
     }
-
-
 }
-
