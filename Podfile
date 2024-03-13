@@ -6,7 +6,7 @@ target 'Moovup' do
   use_frameworks!
 
   # Pods for Moovup
-  pod 'SnapKit', '~> 5.6.0'
+  pod 'SnapKit', '~> 5.7.0'
 
   target 'MoovupTests' do
     inherit! :search_paths
