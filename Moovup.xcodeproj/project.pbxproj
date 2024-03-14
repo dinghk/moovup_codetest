@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A66AADA9E8A7EC3D44ADE4E /* Pods_Moovup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E84B33893CCEA52E72490D /* Pods_Moovup.framework */; };
 		2C5AA41D8FBAFAADD790613A /* Pods_MoovupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C1A163CE9FF25524F975E /* Pods_MoovupTests.framework */; };
+		99D336E22BA2E98B001C7B35 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E12BA2E98B001C7B35 /* UIImageView+Extension.swift */; };
 		99FCA9FB2BA02E7F007EABC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCA9FA2BA02E7F007EABC0 /* AppDelegate.swift */; };
 		99FCA9FD2BA02E7F007EABC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCA9FC2BA02E7F007EABC0 /* SceneDelegate.swift */; };
 		99FCA9FF2BA02E7F007EABC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCA9FE2BA02E7F007EABC0 /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 		80C1D218FF0E74ADEBEC0ECD /* Pods-MoovupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoovupTests.debug.xcconfig"; path = "Target Support Files/Pods-MoovupTests/Pods-MoovupTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81E84B33893CCEA52E72490D /* Pods_Moovup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moovup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ADBB049E5C348B21C70693 /* Pods-Moovup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovup.release.xcconfig"; path = "Target Support Files/Pods-Moovup/Pods-Moovup.release.xcconfig"; sourceTree = "<group>"; };
+		99D336E12BA2E98B001C7B35 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		99FCA9F72BA02E7F007EABC0 /* Moovup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moovup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FCA9FA2BA02E7F007EABC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99FCA9FC2BA02E7F007EABC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		99D336E02BA2E97D001C7B35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99D336E12BA2E98B001C7B35 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		99FCA9EE2BA02E7F007EABC0 = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +210,7 @@
 		99FCAA302BA18576007EABC0 /* Question2 */ = {
 			isa = PBXGroup;
 			children = (
+				99D336E02BA2E97D001C7B35 /* Extensions */,
 				99FCAA312BA1859D007EABC0 /* Network */,
 				99FCAA3D2BA188AC007EABC0 /* TabBar */,
 				99FCAA352BA18870007EABC0 /* Home */,
@@ -493,6 +504,7 @@
 			files = (
 				99FCAA432BA190FA007EABC0 /* PersonItemCell.swift in Sources */,
 				99FCAA4B2BA19926007EABC0 /* HomeBuilder.swift in Sources */,
+				99D336E22BA2E98B001C7B35 /* UIImageView+Extension.swift in Sources */,
 				99FCAA472BA196D3007EABC0 /* HomeViewModel.swift in Sources */,
 				99FCAA2B2BA03020007EABC0 /* Graph.swift in Sources */,
 				99FCAA3F2BA188D3007EABC0 /* TabBarController.swift in Sources */,
@@ -686,7 +698,6 @@
 				INFOPLIST_FILE = Moovup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -719,7 +730,6 @@
 				INFOPLIST_FILE = Moovup/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

@@ -13,7 +13,7 @@ class HomeViewModel {
 
 // MARK: - API
 extension HomeViewModel {
-    func fetchPeopleListAPI() {
+    func fetchPeopleListAPI(completion: @escaping ((Result<[HomeModel.UserResponse], NetworkConfig.NetworkError>) -> Void)) {
         let urlString = NetworkConfig.domain + "/templates/-xdNcNKYtTFG/data"
             
         guard let url = URL(string: urlString) else { return }
@@ -23,13 +23,18 @@ extension HomeViewModel {
             
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {
-                print("Error: \(error)")
-            } else if let data = data {
-                do {
-                    let jsonData = try JSONSerialization.jsonObject(with: data, options: [])
-                    print(jsonData)
-                } catch {
-                    print("Error: \(error)")
+                completion(.failure(.serverError(error)))
+            } else {
+                if let data = data {
+                    do {
+                        let userResponse = try JSONDecoder().decode([HomeModel.UserResponse].self, from: data)
+                        completion(.success(userResponse))
+                        
+                    } catch {
+                        completion(.failure(.responseFailure))
+                    }
+                } else {
+                    completion(.failure(.unknownError))
                 }
             }
         }

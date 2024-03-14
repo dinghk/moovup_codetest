@@ -9,6 +9,13 @@ import Foundation
 
 // MARK: - Network
 class NetworkConfig {
+    enum NetworkError: Error {
+        case invalidUrl
+        case responseFailure
+        case serverError(Error)
+        case unknownError
+    }
+    
     enum Method: String {
         case get = "GET"
         case post = "POST"
