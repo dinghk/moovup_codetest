@@ -63,6 +63,5 @@ class PersonItemCell: UITableViewCell {
     func setup(user: HomeModel.UserResponse) {
         iconImageView.loadImage(from: user.picture)
         nameLabel.text = "\(user.name.first) \(user.name.last)"
-        print("name")
     }
 }

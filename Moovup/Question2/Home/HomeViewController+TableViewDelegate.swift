@@ -26,6 +26,10 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        guard displayList.count > 0 else { return }
+        let user = displayList[indexPath.row]
+        
+        let vc = UserDetailBuilder.create(user: user)
+        navigationController?.pushViewController(vc, animated: true)
     }
 }

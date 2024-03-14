@@ -10,6 +10,8 @@
 		2A66AADA9E8A7EC3D44ADE4E /* Pods_Moovup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E84B33893CCEA52E72490D /* Pods_Moovup.framework */; };
 		2C5AA41D8FBAFAADD790613A /* Pods_MoovupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C1A163CE9FF25524F975E /* Pods_MoovupTests.framework */; };
 		99D336E22BA2E98B001C7B35 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E12BA2E98B001C7B35 /* UIImageView+Extension.swift */; };
+		99D336E62BA2F0B6001C7B35 /* UserDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E52BA2F0B6001C7B35 /* UserDetailBuilder.swift */; };
+		99D336E82BA2F0C8001C7B35 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E72BA2F0C8001C7B35 /* UserDetailViewController.swift */; };
 		99FCA9FB2BA02E7F007EABC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCA9FA2BA02E7F007EABC0 /* AppDelegate.swift */; };
 		99FCA9FD2BA02E7F007EABC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCA9FC2BA02E7F007EABC0 /* SceneDelegate.swift */; };
 		99FCA9FF2BA02E7F007EABC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCA9FE2BA02E7F007EABC0 /* ViewController.swift */; };
@@ -57,6 +59,8 @@
 		81E84B33893CCEA52E72490D /* Pods_Moovup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moovup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ADBB049E5C348B21C70693 /* Pods-Moovup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovup.release.xcconfig"; path = "Target Support Files/Pods-Moovup/Pods-Moovup.release.xcconfig"; sourceTree = "<group>"; };
 		99D336E12BA2E98B001C7B35 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		99D336E52BA2F0B6001C7B35 /* UserDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailBuilder.swift; sourceTree = "<group>"; };
+		99D336E72BA2F0C8001C7B35 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		99FCA9F72BA02E7F007EABC0 /* Moovup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moovup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FCA9FA2BA02E7F007EABC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99FCA9FC2BA02E7F007EABC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +148,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		99D336E42BA2F0A2001C7B35 /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				99D336E52BA2F0B6001C7B35 /* UserDetailBuilder.swift */,
+				99D336E72BA2F0C8001C7B35 /* UserDetailViewController.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
 		99FCA9EE2BA02E7F007EABC0 = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +227,7 @@
 				99FCAA312BA1859D007EABC0 /* Network */,
 				99FCAA3D2BA188AC007EABC0 /* TabBar */,
 				99FCAA352BA18870007EABC0 /* Home */,
+				99D336E42BA2F0A2001C7B35 /* UserDetail */,
 				99FCAA362BA18878007EABC0 /* Map */,
 			);
 			path = Question2;
@@ -512,8 +526,10 @@
 				99FCA9FF2BA02E7F007EABC0 /* ViewController.swift in Sources */,
 				99FCA9FB2BA02E7F007EABC0 /* AppDelegate.swift in Sources */,
 				99FCA9FD2BA02E7F007EABC0 /* SceneDelegate.swift in Sources */,
+				99D336E82BA2F0C8001C7B35 /* UserDetailViewController.swift in Sources */,
 				99FCAA492BA1970E007EABC0 /* HomeModel.swift in Sources */,
 				99FCAA382BA18896007EABC0 /* HomeViewController.swift in Sources */,
+				99D336E62BA2F0B6001C7B35 /* UserDetailBuilder.swift in Sources */,
 				99FCAA452BA19502007EABC0 /* HomeViewController+TableViewDelegate.swift in Sources */,
 				99FCAA3B2BA188A4007EABC0 /* MapViewController.swift in Sources */,
 			);
