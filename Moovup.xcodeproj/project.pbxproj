@@ -12,6 +12,8 @@
 		996C3C1D2BA4278D008E64C0 /* MapCommonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C3C1C2BA4278D008E64C0 /* MapCommonDelegate.swift */; };
 		996C3C1F2BA42D20008E64C0 /* MapBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C3C1E2BA42D20008E64C0 /* MapBuilder.swift */; };
 		996C3C212BA42F0D008E64C0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C3C202BA42F0D008E64C0 /* APIManager.swift */; };
+		996C3C232BA432FC008E64C0 /* APIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C3C222BA432FC008E64C0 /* APIManagerTests.swift */; };
+		996C3C262BA436DE008E64C0 /* MapCommonDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C3C252BA436DE008E64C0 /* MapCommonDelegateTests.swift */; };
 		99D336E22BA2E98B001C7B35 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E12BA2E98B001C7B35 /* UIImageView+Extension.swift */; };
 		99D336E62BA2F0B6001C7B35 /* UserDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E52BA2F0B6001C7B35 /* UserDetailBuilder.swift */; };
 		99D336E82BA2F0C8001C7B35 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E72BA2F0C8001C7B35 /* UserDetailViewController.swift */; };
@@ -64,6 +66,8 @@
 		996C3C1C2BA4278D008E64C0 /* MapCommonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCommonDelegate.swift; sourceTree = "<group>"; };
 		996C3C1E2BA42D20008E64C0 /* MapBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBuilder.swift; sourceTree = "<group>"; };
 		996C3C202BA42F0D008E64C0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		996C3C222BA432FC008E64C0 /* APIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerTests.swift; sourceTree = "<group>"; };
+		996C3C252BA436DE008E64C0 /* MapCommonDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCommonDelegateTests.swift; sourceTree = "<group>"; };
 		99D336E12BA2E98B001C7B35 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		99D336E52BA2F0B6001C7B35 /* UserDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailBuilder.swift; sourceTree = "<group>"; };
 		99D336E72BA2F0C8001C7B35 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
@@ -205,6 +209,8 @@
 			children = (
 				99FCAA112BA02E81007EABC0 /* MoovupTests.swift */,
 				99FCAA2D2BA03291007EABC0 /* GraphTests.swift */,
+				996C3C222BA432FC008E64C0 /* APIManagerTests.swift */,
+				996C3C252BA436DE008E64C0 /* MapCommonDelegateTests.swift */,
 			);
 			path = MoovupTests;
 			sourceTree = "<group>";
@@ -551,8 +557,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996C3C262BA436DE008E64C0 /* MapCommonDelegateTests.swift in Sources */,
 				99FCAA2F2BA03291007EABC0 /* GraphTests.swift in Sources */,
 				99FCAA122BA02E81007EABC0 /* MoovupTests.swift in Sources */,
+				996C3C232BA432FC008E64C0 /* APIManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,6 +792,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 684UHAZS2T;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
@@ -805,6 +814,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 684UHAZS2T;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
@@ -825,6 +835,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 684UHAZS2T;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ding.codetest.MoovupUITests;
@@ -844,6 +855,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 684UHAZS2T;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ding.codetest.MoovupUITests;
