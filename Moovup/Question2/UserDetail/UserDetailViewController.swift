@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MapKit
 
 class UserDetailViewController: UIViewController {
     // lazy
@@ -28,8 +29,15 @@ class UserDetailViewController: UIViewController {
         label.text = "\(user.email)"
         return label
     }()
+    lazy var mapView: MKMapView = {
+        let mapView = MKMapView()
+        mapView.delegate = mapDelegate
+        mapView.showsUserLocation = true
+        return mapView
+    }()
     // state
     fileprivate var user: HomeModel.UserResponse
+    private var mapDelegate: MapCommonDelegate?
     
     init(user: HomeModel.UserResponse) {
         self.user = user
@@ -45,6 +53,7 @@ class UserDetailViewController: UIViewController {
         
         view.backgroundColor = .white
         setupUI()
+        mapDelegate = MapCommonDelegate(vc: self)
     }
 
     private func setupUI() {
@@ -100,5 +109,26 @@ class UserDetailViewController: UIViewController {
             make.bottom.equalTo(separatorView.snp.top)
         }
         
+        mapContainerView.addSubview(mapView)
+        mapView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+        
+        addMarkerPoint()
+    }
+}
+
+// MARK: - Private
+extension UserDetailViewController {
+    func addMarkerPoint() {
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = CLLocationCoordinate2D(latitude: user.location.latitude, longitude: user.location.longitude ?? 0)
+        annotation.title = "\(user.name.first) \(user.name.last)"
+        mapView.addAnnotation(annotation)
+        
+        // Center map on the added marker
+        let span = MKCoordinateSpan(latitudeDelta: 0.75, longitudeDelta: 0.75)
+        let region = MKCoordinateRegion(center: annotation.coordinate, span: span)
+        mapView.setRegion(region, animated: true)
     }
 }

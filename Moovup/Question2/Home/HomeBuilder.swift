@@ -9,7 +9,8 @@ import Foundation
 
 class HomeBuilder {
     class func create() -> HomeViewController {
-        let viewModel = HomeViewModel()
+        let apiManager = APIManager()
+        let viewModel = HomeViewModel(apiManager: apiManager)
         return HomeViewController(viewModel: viewModel)
     }
 }

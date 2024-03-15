@@ -42,6 +42,7 @@ class HomeViewController: UIViewController {
             switch response {
             case .success(let users):
                 DispatchQueue.main.async {
+                    APIManager.shared.userResponse = users
                     self.displayList = users
                     self.tableView.reloadData()
                 }

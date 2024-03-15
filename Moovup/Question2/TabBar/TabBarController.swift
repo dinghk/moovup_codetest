@@ -13,7 +13,7 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
         // Create and configure the view controllers
         let homeViewController = HomeBuilder.create()
-        let mapViewController = MapViewController()
+        let mapViewController = MapBuilder.create()
 
         // Set the view controllers for the tab bar
         self.setViewControllers([homeViewController, mapViewController], animated: false)

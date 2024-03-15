@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2A66AADA9E8A7EC3D44ADE4E /* Pods_Moovup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E84B33893CCEA52E72490D /* Pods_Moovup.framework */; };
 		2C5AA41D8FBAFAADD790613A /* Pods_MoovupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C1A163CE9FF25524F975E /* Pods_MoovupTests.framework */; };
+		996C3C1D2BA4278D008E64C0 /* MapCommonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C3C1C2BA4278D008E64C0 /* MapCommonDelegate.swift */; };
+		996C3C1F2BA42D20008E64C0 /* MapBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C3C1E2BA42D20008E64C0 /* MapBuilder.swift */; };
+		996C3C212BA42F0D008E64C0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C3C202BA42F0D008E64C0 /* APIManager.swift */; };
 		99D336E22BA2E98B001C7B35 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E12BA2E98B001C7B35 /* UIImageView+Extension.swift */; };
 		99D336E62BA2F0B6001C7B35 /* UserDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E52BA2F0B6001C7B35 /* UserDetailBuilder.swift */; };
 		99D336E82BA2F0C8001C7B35 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D336E72BA2F0C8001C7B35 /* UserDetailViewController.swift */; };
@@ -58,6 +61,9 @@
 		80C1D218FF0E74ADEBEC0ECD /* Pods-MoovupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoovupTests.debug.xcconfig"; path = "Target Support Files/Pods-MoovupTests/Pods-MoovupTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81E84B33893CCEA52E72490D /* Pods_Moovup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moovup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ADBB049E5C348B21C70693 /* Pods-Moovup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moovup.release.xcconfig"; path = "Target Support Files/Pods-Moovup/Pods-Moovup.release.xcconfig"; sourceTree = "<group>"; };
+		996C3C1C2BA4278D008E64C0 /* MapCommonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCommonDelegate.swift; sourceTree = "<group>"; };
+		996C3C1E2BA42D20008E64C0 /* MapBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBuilder.swift; sourceTree = "<group>"; };
+		996C3C202BA42F0D008E64C0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		99D336E12BA2E98B001C7B35 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		99D336E52BA2F0B6001C7B35 /* UserDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailBuilder.swift; sourceTree = "<group>"; };
 		99D336E72BA2F0C8001C7B35 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				99FCAA322BA185AB007EABC0 /* NetworkConfig.swift */,
+				996C3C202BA42F0D008E64C0 /* APIManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -257,7 +264,9 @@
 		99FCAA362BA18878007EABC0 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				996C3C1E2BA42D20008E64C0 /* MapBuilder.swift */,
 				99FCAA3A2BA188A4007EABC0 /* MapViewController.swift */,
+				996C3C1C2BA4278D008E64C0 /* MapCommonDelegate.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -517,11 +526,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				99FCAA432BA190FA007EABC0 /* PersonItemCell.swift in Sources */,
+				996C3C212BA42F0D008E64C0 /* APIManager.swift in Sources */,
 				99FCAA4B2BA19926007EABC0 /* HomeBuilder.swift in Sources */,
 				99D336E22BA2E98B001C7B35 /* UIImageView+Extension.swift in Sources */,
 				99FCAA472BA196D3007EABC0 /* HomeViewModel.swift in Sources */,
 				99FCAA2B2BA03020007EABC0 /* Graph.swift in Sources */,
 				99FCAA3F2BA188D3007EABC0 /* TabBarController.swift in Sources */,
+				996C3C1F2BA42D20008E64C0 /* MapBuilder.swift in Sources */,
 				99FCAA332BA185AB007EABC0 /* NetworkConfig.swift in Sources */,
 				99FCA9FF2BA02E7F007EABC0 /* ViewController.swift in Sources */,
 				99FCA9FB2BA02E7F007EABC0 /* AppDelegate.swift in Sources */,
@@ -530,6 +541,7 @@
 				99FCAA492BA1970E007EABC0 /* HomeModel.swift in Sources */,
 				99FCAA382BA18896007EABC0 /* HomeViewController.swift in Sources */,
 				99D336E62BA2F0B6001C7B35 /* UserDetailBuilder.swift in Sources */,
+				996C3C1D2BA4278D008E64C0 /* MapCommonDelegate.swift in Sources */,
 				99FCAA452BA19502007EABC0 /* HomeViewController+TableViewDelegate.swift in Sources */,
 				99FCAA3B2BA188A4007EABC0 /* MapViewController.swift in Sources */,
 			);
